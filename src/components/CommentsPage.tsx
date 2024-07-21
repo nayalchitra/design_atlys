@@ -3,7 +3,7 @@ import SignUp from "./SignUp";
 import Modal from "../UI/Modal";
 import Login from "./Login";
 import { UseModalContext } from "../context/ModalContext";
-import { AiOutlineMessage } from "react-icons/ai";
+import { BiSolidMessageRoundedDots } from "react-icons/bi";
 
 const CommentsPage:FC =()=>{
 
@@ -22,7 +22,7 @@ const CommentsPage:FC =()=>{
                         <div className="text-gray-300 pt-8 pl-4 pb-8 pr-4 relative">
                             <h3 className="mb-2"  >Create Post</h3>
 
-                            <span className="absolute pl-4 pt-7 text-4xl flex items-center text-white"><AiOutlineMessage/></span>
+                            <span className="absolute pl-4 pt-7 text-4xl flex items-center text-white" ><BiSolidMessageRoundedDots/></span>
                             <input className="bg-gray-900 w-[100%] pt-8 pb-8 pl-20 rounded-lg" type="text" placeholder="How are you feeling today?"/>
                             <div className="flex justify-end">
                                 <button className="bg-sky-500 rounded text-white p-2 cursor-pointer w-20 mt-3"  onClick={()=>{setShowSignUpModal(!showSignUpModal)}}>Post</button>
