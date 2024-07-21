@@ -7,5 +7,5 @@ along with the addComments components.
 This mini app is a Figma designed, converted to Code using React, TypeScript, Tailwind CSS and HTML.
 icons used in this mini app are from 'react-icons' library.
 
-netlify-link : https://669d7ec89171a6e24b37a702--design-atlys-task.netlify.app/
+Wanna see how the UI looks like ? here is the netlify-link : https://669d7ec89171a6e24b37a702--design-atlys-task.netlify.app/
 
